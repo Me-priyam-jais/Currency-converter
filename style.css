@@ -1,0 +1,96 @@
+.container
+{
+width:100%;
+height:98vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background-color:#003B73;
+margin:0px;
+padding:0%;
+border:0px;
+}
+#main
+{
+justify-content:center;
+text-align:center;
+border:2px solid #050A30;
+height:400px;
+border-radius:2%;
+width:500px;
+margin-top:50px;
+background-color:#ffe6a3;
+}
+#heading{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight:lighter;
+}
+.text
+{
+margin:30px 0px 5px 5px;
+font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#box
+{   
+justify-content:center;
+text-align:start;
+align-items:center;
+}
+#inbox,#outbox
+{
+margin-left:3px;
+width:96%;
+border:3px solid #050A30;
+outline:0px;
+height:40px;
+border-radius:1em;
+font-size:20px;
+font-weight:bolder;
+color: black;
+background-color:whitesmoke;
+}
+.dropdown
+{
+margin-top: 20px;
+text-align: start;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.select-container
+{
+display:flex;
+}
+#textfrom,#textto
+{
+margin-bottom:0px;
+margin-top:30px;
+}
+.select-container img
+{
+max-width:2.5rem;
+}
+#first
+{
+margin-right:20px;
+}
+#sign
+{
+margin-top: 30px;
+margin-right:5px;
+max-width: 2rem;
+}
+#second
+{
+margin-left:20px;
+}
+.select-container select
+{
+border:0px;
+background-color:#050A30;
+height:20px;
+outline:0px;
+color:#ffe6a3;
+align-self:center;
+}
